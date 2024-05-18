@@ -1,0 +1,39 @@
+.AttemptHistoryContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AttemptHistoryContainer .attemptContainer{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.AttemptHistoryContainer .attemptContainer .title{
+    font-size: 1.3rem;
+
+}
+
+.AttemptHistoryContainer button{
+    width: 200px;
+    padding: 10px 20px;
+    margin:  0px auto;
+    background-color: rgb(255, 203, 105);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.AttemptHistoryContainer button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
